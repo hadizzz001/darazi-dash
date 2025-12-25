@@ -80,11 +80,11 @@ export default function Sidebar() {
                 Notification
               </a>
             </li>  */}
-            <li>
+{/*             <li>
               <a href="/off" style={{ color: "white", textDecoration: "none" }}>
                 Hot Offers
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/setting" style={{ color: "white", textDecoration: "none" }}>
                 Security Settings

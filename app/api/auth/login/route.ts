@@ -12,7 +12,7 @@ export async function POST(req) {
 
   // ✅ Always fetch ONLY this user, not by username
   const user = await prisma.user.findUnique({
-    where: { id: "690a3cd97e9ec99cd4826509" },
+    where: { id: "694d56e163abc59527ceef14" },
   });
 
   if (!user) {
