@@ -8,7 +8,7 @@ const ManageCategory = () => {
   const [message, setMessage] = useState('');
 
   // Fixed ID
-  const bannerId = '68fcd8b821e83092245e1485';
+  const bannerId = '694eccb516b51f73e9dcef5e';
 
   // Fetch current banner to show
   const [banner, setBanner] = useState(null);
@@ -50,7 +50,7 @@ const ManageCategory = () => {
 
       if (res.ok) {
         setMessage('Banner updated successfully!');
-        fetchBanner();
+        window.location.replace("/banner");
       } else {
         const errorData = await res.json();
         setMessage(`Error: ${errorData.error}`);

@@ -43,53 +43,64 @@ export default function Sidebar() {
               <a href="/category" style={{ color: "white", textDecoration: "none" }}>
                 Add Category
               </a>
-            </li>    
+            </li>
             <li>
               <a href="/sub" style={{ color: "white", textDecoration: "none" }}>
                 Add Sub-category
               </a>
-            </li>    
+            </li>
             <li>
               <a href="/factory" style={{ color: "white", textDecoration: "none" }}>
                 Add Brand
               </a>
-            </li>    
-              
+            </li>
+
             <li>
               <a href="/offer" style={{ color: "white", textDecoration: "none" }}>
                 Add Code
               </a>
-            </li>  
+            </li>
             <li>
               <a href="/reservation" style={{ color: "white", textDecoration: "none" }}>
                 Orders
               </a>
-            </li>  
+            </li>
             <li>
               <a href="/color" style={{ color: "white", textDecoration: "none" }}>
                 Colors
               </a>
-            </li>  
+            </li>
             <li>
               <a href="/size" style={{ color: "white", textDecoration: "none" }}>
                 Sizes
               </a>
-            </li>  
+            </li>
             {/* <li>
               <a href="/note" style={{ color: "white", textDecoration: "none" }}>
                 Notification
               </a>
             </li>  */}
-{/*             <li>
+            {/*             <li>
               <a href="/off" style={{ color: "white", textDecoration: "none" }}>
                 Hot Offers
               </a>
             </li> */}
             <li>
+              <a href="/txt" style={{ color: "white", textDecoration: "none" }}>
+                slider Text
+              </a>
+            </li>
+            <li>
+              <a href="/banner" style={{ color: "white", textDecoration: "none" }}>
+                Banner
+              </a>
+            </li>
+            <li>
               <a href="/setting" style={{ color: "white", textDecoration: "none" }}>
                 Security Settings
               </a>
             </li>
+
             <li>
               <a href="/" style={{ color: "white", textDecoration: "none" }}>
                 Logout
@@ -122,10 +133,10 @@ export default function Sidebar() {
       {/* Spacer to push content */}
       <div style={{ marginLeft: isOpen ? "200px" : "0", transition: "margin-left 0.3s ease-in-out" }} />
       <style
-  dangerouslySetInnerHTML={{
-    __html: "\n  a {\n    color: #fff !important;\n}\n"
-  }}
-/>
+        dangerouslySetInnerHTML={{
+          __html: "\n  a {\n    color: #fff !important;\n}\n"
+        }}
+      />
 
     </div>
   );

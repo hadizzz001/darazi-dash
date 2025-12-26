@@ -104,3 +104,16 @@ model Hotoffer {
   name String   @unique
   img  String[] 
 }
+
+
+model Txt {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  title        String 
+}
+
+ 
+
+model Banner {
+  id  String   @id @default(auto()) @map("_id") @db.ObjectId
+  img String[]  
+}
