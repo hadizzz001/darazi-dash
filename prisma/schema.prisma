@@ -63,12 +63,7 @@ model Order {
   delete      Boolean @default(false)
 }
 
-model Review {
-  id          String   @id @default(auto()) @map("_id") @db.ObjectId
-  name        String
-  description String
-  date        DateTime @default(now()) @db.Date
-}
+ 
  
  
 
@@ -116,4 +111,13 @@ model Txt {
 model Banner {
   id  String   @id @default(auto()) @map("_id") @db.ObjectId
   img String[]  
+}
+
+
+model Review {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  description String
+  stars String
+  date        DateTime @default(now()) @db.Date
 }

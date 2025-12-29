@@ -96,6 +96,11 @@ export default function Sidebar() {
               </a>
             </li>
             <li>
+              <a href="/review" style={{ color: "white", textDecoration: "none" }}>
+                Review
+              </a>
+            </li>
+            <li>
               <a href="/setting" style={{ color: "white", textDecoration: "none" }}>
                 Security Settings
               </a>
